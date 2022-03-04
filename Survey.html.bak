@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Reliable Sources Research</title>
+    <meta name="description" content="FILL THIS!!!!">
+    <meta name="author" content="Computing Group 9">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    
+<body>    
+    <div id="header" class="header">
+        <div id="nav">
+		<div id="header-logo">
+			<h1>Reliable Sources Research</h1>
+		</div>
+	       <div id="header-menu">
+		   <ul>
+			<li> <a href="#">About</a></li>
+			<li> <a href="Survey.html">Survey</a></li>
+			<li> <a href="#">Raw Data</a></li>
+			<li> <a href="Infographic.html">Infrographic</a></li>
+            <li> <a href="Links.html">Links/Sources</a></li>
+		   </ul>
+         </div>
+        </div>
+    
+    <div id="drop-nav">
+        <button id="drop-nav-btn"><img src="img/menu.png"></button>
+        <div id="drop-nav-content">
+            <a href="index.html">About</a>
+            <a href="#">Survey</a>
+            <a href="Raw.html">Raw Data</a>
+            <a href="Infographic.html">Infrographic</a>
+            <a href="Links.html">Links/Sources</a>
+        </div>
+    </div>
+    </div>
+    <div id="content-box">
+      <div id="content-box-holder">
+		  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc4nfvILmwblJL9kMzS6Nok1wX0QioKnuOH3c7wxy0bKsIu0Q/viewform?embedded=true" width="640" height="1691" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </div>
+    
+    
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("header");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+</script>
+</body>
+    
+<footer>
+</footer>
+</html>

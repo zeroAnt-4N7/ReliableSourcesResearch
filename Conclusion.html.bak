@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Reliable Sources Research</title>
+    <meta name="description" content="FILL THIS!!!!">
+    <meta name="author" content="Computing Group 9">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    
+<body>    
+    <div id="header" class="header">
+        <div id="nav">
+		<div id="header-logo">
+			<h1>Reliable Sources Research</h1>
+		</div>
+	       <div id="header-menu">
+		   <ul>
+			<li> <a href="#">About</a></li>
+			<li> <a href="Survey.html">Survey</a></li>
+			<li> <a href="#">Raw Data</a></li>
+			<li> <a href="Infographic.html">Infrographic</a></li>
+            <li> <a href="#">Links/Sources</a></li>
+		   </ul>
+         </div>
+        </div>
+    
+    <div id="drop-nav">
+        <button id="drop-nav-btn"><img src="img/menu.png"></button>
+        <div id="drop-nav-content">
+            <a href="index.html">About</a>
+            <a href="Survey.html">Survey</a>
+            <a href="Raw.html">Raw Data</a>
+            <a href="Infographic.html">Infrographic</a>
+            <a href="Links.html">Links/Sources</a>
+        </div>
+    </div>
+    </div>
+    <div id="content-box">
+      <div id="content-box-holder">
+		  <p class="content-header">
+		      <br>
+              <br>
+              <br>
+			  <br>
+			  What did we conclude from our data?
+		  </p>
+          <p class="content-paragraph">
+			  <br>
+			  <br>
+			  Initially when we conducted the survey and research, we expected to see people capabilities to identify fake news and data to not be sufficient enough to know which sites are to be trusted or not. In addition, when starting the research we expected to the secondary data to show a lack of trust in social media and news due to repetitive occurrences of false facts tricking people around the world. Upon conducting our surveys and collection of data we began to realise that our initial beliefs where being proven true and accurate with each collection of data supporting our hypothesis.		  </p>
+        </div>
+    </div>
+    
+    
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("header");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+</script>
+</body>
+    
+<footer>
+</footer>
+</html>
